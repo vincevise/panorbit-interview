@@ -1,8 +1,7 @@
 import React, { useContext, useEffect, useRef, useState } from 'react'
 import { BsChatRight} from 'react-icons/bs'
 import {MdKeyboardArrowDown, MdKeyboardArrowUp, MdSend} from 'react-icons/md'
-import { UserContext } from '../App'
-import {GrClose} from 'react-icons/gr'
+import { UserContext } from '../App' 
 import {IoMdClose} from 'react-icons/io'
 
 const ChatBox = ({data}) => {
@@ -41,7 +40,7 @@ const ChatBox = ({data}) => {
         return () => {
             document.removeEventListener('mousedown', handleClickOutside);
         };
-    },[openChatBox, openChatBox])
+    },[openChatBox, openChatBox, userChatBox])
 
   return (
     < div  ref={chatBoxRef}>

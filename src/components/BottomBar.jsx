@@ -1,8 +1,7 @@
 import React from 'react'
 import { AiOutlineCheck } from 'react-icons/ai'
 import { BsFillFileEarmarkPostFill, BsFillPersonFill } from 'react-icons/bs'
-import { MdPhotoSizeSelectActual } from 'react-icons/md'
-import { Link } from 'react-router-dom'
+import { MdPhotoSizeSelectActual } from 'react-icons/md' 
 
 const BottomBar = ({handleRoute}) => {
     const routes = [
