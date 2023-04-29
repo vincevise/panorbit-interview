@@ -1,0 +1,27 @@
+ /* Style the scrollbar track */
+ .customscroll::-webkit-scrollbar-track {
+  background-color: none; /* color of the track */
+}
+
+/* Style the scrollbar thumb */
+.customscroll::-webkit-scrollbar-thumb {
+  background-color: #ccc; /* color of the thumb */
+  border-radius: 10px; /* roundness of the thumb */
+}
+
+/* Style the scrollbar corner */
+.customscroll::-webkit-scrollbar-corner {
+  background-color: red /* color of the corner */
+}
+
+/* Optionally, hide the scrollbar if not needed */
+.customscroll::-webkit-scrollbar {
+  width: 5px; /* width of the scrollbar */
+  height: 10px;  /* height of the scrollbar */
+    /* hide the scrollbar */
+}
+
+.nav-bar{
+  background: rgb(34,43,195);
+  background: linear-gradient(180deg, rgba(34,43,195,1) 0%, rgba(139,45,253,1) 100%);
+}
