@@ -1,19 +1,17 @@
 import React, { useContext, useState } from 'react'
 import { UserContext } from '../App'
-import { Link, Outlet, useFetcher, useLocation, useParams, useRoutes } from 'react-router-dom'
+import {  useParams    } from 'react-router-dom'
 import UserDetails from './UserDetails'
 import UserPosts from './UserPosts'
 import UserGallery from './UserGallery'
-import UserTodo from './UserTodo'
-import NavBarProfile from '../components/NavBarProfile'
+import UserTodo from './UserTodo' 
 import Navbar from '../components/Navbar'
 import Sidebar from '../components/Sidebar'
 import ChatBox from '../components/ChatBox'
 import BottomBar from '../components/BottomBar'
 
 const UserPage = () => {
-    const [ route, setRoute] = useState('')
-    const location = useLocation()
+    const [ route, setRoute] = useState('') 
     const params = useParams()
     const users = useContext(UserContext) 
 

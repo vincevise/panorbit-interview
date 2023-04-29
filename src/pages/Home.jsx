@@ -1,6 +1,4 @@
-import React, { useContext } from 'react'
-import { useQuery } from 'react-query'
-import { fetchUsers } from '../api/api'
+import React, { useContext } from 'react' 
 import { UserContext } from '../App'
 import { Link } from 'react-router-dom'
 

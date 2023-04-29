@@ -40,7 +40,7 @@ const ChatBox = ({data}) => {
         return () => {
             document.removeEventListener('mousedown', handleClickOutside);
         };
-    },[openChatBox, openChatBox, userChatBox])
+    },[openChatBox  , userChatBox])
 
   return (
     < div  ref={chatBoxRef}>
