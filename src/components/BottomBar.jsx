@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { memo } from 'react'
 import { AiOutlineCheck } from 'react-icons/ai'
 import { BsFillFileEarmarkPostFill, BsFillPersonFill } from 'react-icons/bs'
 import { MdPhotoSizeSelectActual } from 'react-icons/md' 
@@ -39,4 +39,4 @@ const BottomBar = ({handleRoute}) => {
   )
 }
 
-export default BottomBar
+export default memo(BottomBar)

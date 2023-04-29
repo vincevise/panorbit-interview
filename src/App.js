@@ -17,7 +17,7 @@ function App() {
   if(isError) return <>Error</> 
 
   return (
-    <div className='w-screen h-screen'>
+    <div className='App'>
       <UserContext.Provider value={data.data.users}>
       <BrowserRouter>
         <Routes>

@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react'
+import React, { memo, useContext, useState } from 'react'
 import { UserContext } from '../App'
 import {  useParams    } from 'react-router-dom'
 import UserDetails from './UserDetails'
@@ -58,4 +58,4 @@ const UserPage = () => {
   )
 }
 
-export default UserPage
+export default memo(UserPage)

@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useRef, useState } from 'react'
+import React, { memo, useContext, useEffect, useRef, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { UserContext } from '../App'
 
@@ -51,4 +51,4 @@ const NavBarProfile = ({user}) => {
   )
 }
 
-export default NavBarProfile
+export default memo(NavBarProfile)

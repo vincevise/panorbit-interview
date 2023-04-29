@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useRef, useState } from 'react'
+import React, { memo, useContext, useEffect, useRef, useState } from 'react'
 import { BsChatRight} from 'react-icons/bs'
 import {MdKeyboardArrowDown, MdKeyboardArrowUp, MdSend} from 'react-icons/md'
 import { UserContext } from '../App' 
@@ -90,4 +90,4 @@ const ChatBox = ({data}) => {
   )
 }
 
-export default ChatBox
+export default memo(ChatBox)

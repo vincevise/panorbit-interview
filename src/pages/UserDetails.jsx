@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { memo } from 'react'
 
 const UserDetails = ({user}) => {
   console.log(user)
@@ -64,4 +64,4 @@ const UserDetails = ({user}) => {
   )
 }
 
-export default UserDetails
+export default memo(UserDetails)

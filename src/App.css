@@ -25,3 +25,8 @@
   background: rgb(34,43,195);
   background: linear-gradient(180deg, rgba(34,43,195,1) 0%, rgba(139,45,253,1) 100%);
 }
+
+.App{
+  width: 100vw;
+  height: 100vh;
+}

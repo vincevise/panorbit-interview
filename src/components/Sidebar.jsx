@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { memo } from 'react'
 import { BsFillFileEarmarkPostFill, BsFillPersonFill } from 'react-icons/bs'
 import { IoIosArrowForward } from 'react-icons/io'
 import { MdPhotoSizeSelectActual } from 'react-icons/md' 
@@ -46,4 +46,4 @@ const Sidebar = ({handleRoute, route}) => {
   )
 }
 
-export default Sidebar
+export default memo(Sidebar)
